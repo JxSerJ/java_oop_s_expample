@@ -5,10 +5,10 @@ import study_group.student.Student;
 
 public class Service {
     private long id;
-    private StudyGroup studyGroup;
+    private StudyGroup<Student> studyGroup;
 
     public Service() {
-        this.studyGroup = new StudyGroup();
+        this.studyGroup = new StudyGroup<>();
     }
 
     public void addStudent(String name, int age) {
