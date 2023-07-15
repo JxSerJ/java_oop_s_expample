@@ -1,8 +1,7 @@
-package study_group.group;
+package study_group.model.group;
 
-import study_group.student.Student;
-import study_group.student.StudentComparatorByAge;
-import study_group.student.StudentComparatorByName;
+import study_group.model.student.StudentComparatorByAge;
+import study_group.model.student.StudentComparatorByName;
 
 import java.util.*;
 

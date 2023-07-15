@@ -1,6 +1,6 @@
-package study_group.student;
+package study_group.model.student;
 
-import study_group.group.GroupItem;
+import study_group.model.group.GroupItem;
 
 public class Student implements Comparable<Student>, GroupItem {
     private long id;
